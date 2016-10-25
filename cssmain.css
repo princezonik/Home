@@ -1,0 +1,59 @@
+body{
+	margin: 0px auto;
+	padding: 0px;
+	background: url("Images/Landscape.jpg") no-repeat center;
+	-web-kit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header{
+	height: 100px;
+}
+.mainheader{
+	padding: 10px;
+	background-color: ;
+	box-shadow:0px 2px 6px -2px rgba(0,0,0,.25);
+	
+}
+
+.mainheader ul{
+	list-style-type: none;
+}
+
+.mainheader ul li{
+	float: right;
+	display: block;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+#signin{
+	text-decoration:none;
+	color: #fff;
+	background-color: #660000;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+#signin:hover{
+	color: #8B0000;
+	background-color: transparent;
+	transition: .3s;
+}
+
+#signup:hover{
+	color: #8B0000;
+	background-color: transparent;
+	transition: .3s;
+}
+#features{
+	text-decoration: none;
+	color: white;
+	margin-top: 40px;
+}
+#features:hover
+
