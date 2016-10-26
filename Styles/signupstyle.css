@@ -1,0 +1,108 @@
+body{
+	background-color: #;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+.form-signup-container{
+	
+	width: 700px;
+	height: 600px;
+	background-color: #000d1a;
+	margin-left: 30%;
+	margin-top: 100px;
+	padding:0px;
+	
+}
+
+.form-signup-container input[type="text"]{
+	width: 300px;
+	height: 40px;
+	margin-left: 30px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	
+}
+
+.form-signup-container input[name="userName"]{
+	width: 635px;
+	height: 40px;
+	margin-right: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	
+}
+
+.form-signup-container input[name="e-mail"]{
+	width: 635px;
+	height: 40px;
+	margin-left: 30px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	
+}
+
+.form-signup-container input[name="password"]{
+	width: 635px;
+	height: 40px;
+	margin-left: 30px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	
+}
+
+.form-signup-container input[name="password"]{
+	width: 635px;
+	height: 40px;
+	margin-left: 30px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	
+}
+
+.form-signup-container input[name="submit"]{
+	width: 330px;
+	height: 40px;
+	margin-left: 30px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	
+}
+
+.form-signup-container h2, .form-signup-container h4{
+	font-family:;
+	text-align: center;
+	color: #ffffff;
+	font-weight: normal;
+	
+}
+p{
+	margin:0px;
+	margin-left: 30px;
+	color: #ffffff;
+	
+}
+
+span{
+	margin:0px;
+	margin-left: 30px;
+	color: #ffffff;
+}
+
+#lastname{
+	margin: 0px;
+	margin-left: 365px;
+}

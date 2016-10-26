@@ -1,7 +1,7 @@
 body{
 	margin: 0px auto;
 	padding: 0px;
-	background: url("Images/Landscape.jpg") no-repeat center;
+	background: url("../Images/Landsape.jpg") no-repeat center;
 	-web-kit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -30,7 +30,7 @@ header{
 	margin-top: 30px;
 }
 
-#signin{
+ul li a{
 	text-decoration:none;
 	color: #fff;
 	background-color: #660000;
@@ -39,21 +39,15 @@ header{
 	padding: 10px;
 }
 
-#signin:hover{
+ul li a:hover{
 	color: #8B0000;
 	background-color: transparent;
 	transition: .3s;
 }
 
-#signup:hover{
-	color: #8B0000;
-	background-color: transparent;
-	transition: .3s;
 }
 #features{
 	text-decoration: none;
-	color: white;
-	margin-top: 40px;
+	color: black;
+	margin-top: 100px;
 }
-#features:hover
-
