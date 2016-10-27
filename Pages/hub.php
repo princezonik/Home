@@ -1,4 +1,4 @@
-<?php $connect=mysql_connect("root","localhost","") || die("cannot connect to database")?>
+<?php $connect = mysql_connect("localhost","root","") || die("cannot connect to database")?>
 <html>
 	<head>
 		<title>gitHub make changes</title>
@@ -10,8 +10,8 @@
 				<div id="menu-main-menu-container">
 					<nav>
 						<ul>
-						<li><a href="signup.htm">SIGN UP</a></li>
-						<li><a href="signin.htm">SIGN IN</a></li>
+						<li><a href="signup.php">SIGN UP</a></li>
+						<li><a href="signin.php">SIGN IN</a></li>
 						</ul>
 					</nav>
 					

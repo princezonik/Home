@@ -2,7 +2,7 @@
 	<head>
 		<title></title>
 	</head>
-	<link rel="stylesheet" type="text/css" href="../Styles/signupstyle.css" />
+	<link rel="stylesheet" type="text/css" href="../Styles/signupstye.css" />
 	<body>
 		<div class="form-signup-form">
 			<h2>SIGN UP!</h2>

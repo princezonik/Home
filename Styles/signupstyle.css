@@ -86,7 +86,7 @@ li a:active{
 }
 
 .tab-content > div:last-child {
-  display:nne;
+  display:none;
 }
 
 h1 {
