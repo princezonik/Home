@@ -1,33 +1,33 @@
-<html>
-	<head>
-		<title></title>
-	</head>
-	<link rel="stylesheet" type="text/css" href="../Styles/signupstye.css" />
-	<body>
-		<div id="login">   
-		<h1>Welcome Back!</h1>
-	  
-		<form action="/" method="post">
-	  
-			<div class="field-wrap">
-				<label>
-					Email Address<span class="req">*</span>
-				</label>
-				<input type="email"required autocomplete="off"/>
-			</div>
+<?php include("../includes/header.php")?>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="../styles/signupstyle.css" />
+</head>		  
+			
+			<div class="form">
+
+	<h3 class="sign">Sign In</h3>
+	
+	  <h1>Welcome back!</h1>
+	<div class="tab-content">
+		<div id="signup">   
+		<form action="#" method="post">
+				<div class="field-wrap">
+					<input type="text" required autocomplete="off" placeholder="Pick a username..." name="username"/>
+				</div>
 		  
 			<div class="field-wrap">
-				<label>
-					Password<span class="req">*</span>
-				</label>
-				<input type="password"required autocomplete="off"/>
+				<input type="password"required autocomplete="off" placeholder="set a password" name="pass" />
 			</div>
 		  
-			<p class="forgot"><a href="#">Forgot Password?</a></p>
-		  
-			<button class="button button-block"/>Log In</button>
+			<button type="submit" class="button button-block" name="submit"/>Get Started</button>
 	  
-	  </form>
-  </div>
-	</body>
-</html>
+		</form>
+
+	</div>
+	
+	
+			
+		</div><!-- tab-content -->
+
+<?php include("../includes/footer.php")?>
