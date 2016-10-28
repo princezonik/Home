@@ -4,20 +4,30 @@
 	</head>
 	<link rel="stylesheet" type="text/css" href="../Styles/signupstye.css" />
 	<body>
-		<div class="form-signup-form">
-			<h2>SIGN UP!</h2>
-			<form method="_POST" process="signin.htm">
-				First Name:<br /> <input type="text" name="Firstname" placeholder=" Enter First Name here...." /> 
-				<br /> <br />
-				Last Name:<br /> <input  type="text" name="Lastname" placeholder="Enter Last Name here...." />
-				<br /> <br />
-				Username:<br /> <input type="text" name="Username" placeholder=" Enter Username here...." />
-				<br /> <br />
-				E-mail:<br /> <input type="text" name="email" placeholder=" Enter e-mail here...." />
-				<br /> <br />
-				Password:<br /> <input type="password" name="password" /> <br /> <br />
-				<input type="Submit" name="Submit" value="Submit" />
-			</form>
-		</div>
+		<div id="login">   
+		<h1>Welcome Back!</h1>
+	  
+		<form action="/" method="post">
+	  
+			<div class="field-wrap">
+				<label>
+					Email Address<span class="req">*</span>
+				</label>
+				<input type="email"required autocomplete="off"/>
+			</div>
+		  
+			<div class="field-wrap">
+				<label>
+					Password<span class="req">*</span>
+				</label>
+				<input type="password"required autocomplete="off"/>
+			</div>
+		  
+			<p class="forgot"><a href="#">Forgot Password?</a></p>
+		  
+			<button class="button button-block"/>Log In</button>
+	  
+	  </form>
+  </div>
 	</body>
 </html>
