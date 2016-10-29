@@ -19,7 +19,7 @@
 			</div>
 		  
 			<div class="field-wrap">
-				<input type="password"required autocomplete="off" placeholder="set a password" name="pass" />
+				<input type="password"required autocomplete="off" placeholder="set a password" name="password" />
 			</div>
 		  
 			<button type="submit" class="button button-block" name="submit"/>Get Started</button>

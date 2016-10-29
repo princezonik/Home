@@ -13,14 +13,14 @@
 		<div id="signup">   
 		<form action="#" method="post">
 				<div class="field-wrap">
-					<input type="text" required autocomplete="off" placeholder="Pick a username..." name="username"/>
+					<input type="text" required autocomplete="off" placeholder="Pick a username..." name="name"/>
 				</div>
 		  
 			<div class="field-wrap">
 				<input type="password"required autocomplete="off" placeholder="set a password" name="pass" />
 			</div>
 		  
-			<button type="submit" class="button button-block" name="submit"/>Get Started</button>
+			<button type="submit" class="button button-block" name="login"/>Get Started</button>
 	  
 		</form>
 

@@ -6,7 +6,7 @@
 
 		$user_name = $_POST['username'];
 		$user_email = $_POST['email'];
-		$user_pass = $_POST['pass'];
+		$user_pass = $_POST['password'];
 
 		$check_email = "SELECT * FROM user_registration WHERE email = '$user_email'";
 
@@ -22,8 +22,25 @@
 
 		if (mysql_query($query)){
 
-			echo "<script>alert('egistration successful')</script>";
+			header('location: profile.php');
 		}
+
+
+	}else if (isset($_POST['login'])){
+		$userr_name = $_POST['name'];
+		$user_password = $_POST['pass'];
+
+		$check_name = "SELECT * FROM user_registration WHERE username = '$userr_name' AND password='$user_password'";
+
+		$run = mysql_query($check_name);
+
+		if(mysql_num_rows($run) > 0){
+
+			header('location:profile.php');
+		
+		}else{
+			echo "<script>alert('username or password incorrect')</script>";
+			}
 	}
 ?>
 
@@ -32,7 +49,7 @@
 		
 		
 	.mainheader{
-		height: 7%;
+		height: 50px;
 		background-color: var(--white);
 		padding: 0.5%;
 		box-shadow:0px 2px 6px -2px rgba(0,0,0,.25);

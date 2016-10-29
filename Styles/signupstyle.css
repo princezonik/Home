@@ -54,8 +54,8 @@ input {
   height:5%;
   padding:5px 10px;
   background-color: transparent;
+  color:var(--White);
   border:1px solid var(--gray-light);
-  color:black;
   border-radius:3px;
   transition:border-color 0.5s ease, box-shadow .5s ease;
   

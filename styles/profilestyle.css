@@ -1,0 +1,64 @@
+body{
+	
+}
+
+#sidebar{
+	background: #151718;
+	width: 200px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: -200px;
+	top: 70px;
+	transition: left .3s linear;
+}
+
+/*#sidebar.visible{
+	left:0px;
+	transition: left .3s linear;
+}
+*/
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#sidebar-list li{
+	list-style:none;
+}
+
+#sidebar-list li a{
+	background: #1C1E1F;
+	color: #CCC;
+	border-bottom: 1px solid #111;
+	display: block;
+	width: 180px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#sidebar-btn{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 15px;
+	cursor: pointer;
+	margin: 20px;
+	position: absolute;
+	top: 50px;
+	right: 60px;
+
+}
+
+
+#sidebar-btn span{
+	top: 70px;
+	height:1px;
+	background: #111;
+	margin-bottom: 5px;
+	display: block;
+}
+
+#sidebar-btn span:nth-child(2){
+	width:75%;
+}
