@@ -93,11 +93,11 @@ span{
 		margin: 0;
 	}
 
-	.package-container {
-		position: relative;
+	.package-container{
 		width: 90%;
 		border: 2px solid #ccc;
-		margin-left: 80px;
+		position: relative;
+		margin-left: 5%;
 		margin-bottom: 100px;
 	}
 
@@ -133,6 +133,7 @@ span{
 		height: 400px;
 		width: 200px;
 		padding: 0px;
+		margin-left: 10%;
 		margin-top: 5%;
 		float: left;
 		background-color: #e5e5ff;
@@ -144,7 +145,7 @@ span{
 		height: 400px;
 		width: 200px;
 		margin-top: 5%;
-		margin-left: 15%;
+		margin-left: 5%;
 		background-color: #e5e5ff;
 		border: 1px solid black;
 	}

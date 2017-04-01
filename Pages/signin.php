@@ -1,9 +1,9 @@
-<?php require_once("connection.php"); ?>
-<?php require_once("header.php"); ?>
+<?php require_once("../includes/connection.php"); ?>
+<?php require_once("../includes/header.php"); ?>
 <?php require_once("signinverification.php");?>
 
-	<link rel="stylesheet" type="text/css" href="signin.css">
-			<img src="landscape.jpg">
+	<link rel="stylesheet" type="text/css" href="../Styles/signin.css">
+			<img src="../images/landscape.jpg">
 	
 	<div class="container">
 		<div  class="form-container">
@@ -23,4 +23,4 @@
 
 		
 	</div> <!-- main container -->
-<?php require_once("footer.php"); ?>
+<?php require_once("../includes/footer.php"); ?>

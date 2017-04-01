@@ -1,10 +1,10 @@
 <?php require_once("signupverification.php"); ?>
-<?php require_once("header.php"); ?>
+<?php require_once("../includes/header.php"); ?>
 	
-	<script type="text/javascript" src="javascript.js" > </script>
-	<link rel="stylesheet" type="text/css" href="signup.css">
+	<script type="text/javascript" src="../js/javascript.js" > </script>
+	<link rel="stylesheet" type="text/css" href="../styles/signup.css">
 	
-	<img src="Landscape.jpg" width="100% height: 20px;">
+	<img src="../images/Landscape.jpg" width="100% height: 20px;">
 
 	<div>
 		<form action="#" method="post" name="form-container">
@@ -37,4 +37,4 @@
 		</form>
 	</div>
 
-<?php require_once("footer.php"); ?>
+<?php require_once("../includes/footer.php"); ?>
