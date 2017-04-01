@@ -1,33 +1,26 @@
-<?php include("../includes/header.php")?>
+<?php require_once("connection.php"); ?>
+<?php require_once("header.php"); ?>
+<?php require_once("signinverification.php");?>
 
-<head>
-	<link rel="stylesheet" type="text/css" href="../styles/signupstyle.css" />
-</head>		  
-			
-			<div class="form">
-
-	<h3 class="sign">Sign In</h3>
+	<link rel="stylesheet" type="text/css" href="signin.css">
+			<img src="landscape.jpg">
 	
-	  <h1>Welcome back!</h1>
-	<div class="tab-content">
-		<div id="signup">   
-		<form action="#" method="post">
-				<div class="field-wrap">
-					<input type="text" required autocomplete="off" placeholder="Pick a username..." name="name"/>
-				</div>
-		  
-			<div class="field-wrap">
-				<input type="password"required autocomplete="off" placeholder="set a password" name="pass" />
-			</div>
-		  
-			<button type="submit" class="button button-block" name="login"/>Get Started</button>
-	  
-		</form>
+	<div class="container">
+		<div  class="form-container">
+			<form action="#" method="post">
+				<input type="text" name="username" placeholder="Enter username here..." required>
+				<br /> <br />
+				<input type="password" name="password" >
+				<br /> <br />
+				<input type="Submit"  id="message" name="submit" value="LOG IN">
 
-	</div>
-	
-	
-			
-		</div><!-- tab-content -->
+			</form>
+		</div>
 
-<?php include("../includes/footer.php")?>
+		<div class="write-up">
+		
+		</div>
+
+		
+	</div> <!-- main container -->
+<?php require_once("footer.php"); ?>

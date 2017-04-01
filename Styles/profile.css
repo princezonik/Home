@@ -1,0 +1,97 @@
+.profile-picture{
+	float: right;
+	margin-right: 100px;
+	width: 200px;
+	height: 250px;
+	padding-left: 60px;
+	
+}
+
+#profile-photo-top{
+	width: 100px;
+	height: 100px;
+}
+
+#profile-photo{
+	float: right;
+	widows: 100px;
+	height: 100px;
+	margin-right: 100px;
+}
+
+.my-profile-dashboard{
+	border: 1px solid #9999cc;
+	width: 1000px;
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 50px;
+	padding-left: 50px;
+}
+#profile-anchor{
+	text-decoration: none;
+	color: #9999ff;
+	padding: 10px 20px;
+
+}
+#profile-anchor:hover{
+	color: white;
+}
+
+
+#info{
+	border: 1px solid #9999cc;
+	padding: 8px;
+	width: 100px;
+	background-color: #000019;
+	transition: 0.4s;
+}
+
+#info:hover{
+	background-color: #6666ff;
+	transition: 0.4s;
+}
+
+
+p{
+	color: #7f7fff;
+}
+
+#h4-text-one{
+	float: left;
+	
+}
+
+#h4-text-two{
+	margin-left: 750px;
+}
+
+.table-one{
+	float: right;
+	margin-right: -230px;
+	margin-top: 300px;
+	padding-left: 30px;
+	background-color: white;
+	border: 1px solid #336;
+	height: 50px;
+	width: 200px;
+}
+.referral-container{
+	margin-top: 50px;
+}
+.referral-one{
+	float: left;
+	border: 1px solid black;
+	margin-left: 100px;
+	padding-left: 100px;
+	width: 500px;
+	height: 200px;
+}
+
+.referral-two{
+	float: left;
+	border: 1px solid black;
+	margin-left: 100px;
+	padding-left: 100px;
+	width: 500px;
+	height: 200px;
+}
